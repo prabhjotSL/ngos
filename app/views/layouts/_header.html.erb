@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default" role="navigation">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle Navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<%= link_to "500NGOs", root_path, class: "navbar-brand" %>
+	</div>
+
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li><%= link_to "Home", root_path %></li>
+			<li><%= link_to "About", about_path %></li>
+			<li><%= link_to "Contact", contact_path %></li>
+		</ul>
+	</div>
+</nav>
